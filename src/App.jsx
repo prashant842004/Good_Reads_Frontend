@@ -1,4 +1,4 @@
-import Home from "src/Pages/Home.jsx"
+import Home from "Pages/Home.jsx"
 
 const App = () => {
   return (
