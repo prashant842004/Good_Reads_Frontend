@@ -2,7 +2,7 @@
 import { defineConfig } from 'vite'
 import tailwindcss from '@tailwindcss/vite'
 import react from '@vitejs/plugin-react'
-import { Component } from 'react'
+
 export default defineConfig({
   plugins: [
     react(),
@@ -10,6 +10,7 @@ export default defineConfig({
   ],
   resolve:{
     alias :{
+      src:"/src",
       Components :"/src/Components",
       Pages :"/src/Pages",
       Redux : "/src/Redux",

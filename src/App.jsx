@@ -1,9 +1,10 @@
-import Home from "Pages/Home.jsx"
+import MainRoutes from "./Routes/MainRoutes";
 
 const App = () => {
   return (
-  
-    <Home/>
+  <>
+    <MainRoutes/>
+  </>
 
   );
 }
