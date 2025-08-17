@@ -6,7 +6,7 @@ import { Route, Routes } from "react-router-dom";
 export default function MainRoutes() {
 
     return(
-        <Routes>
+        <Routes >
             <Route path="/" element={<Home />} />
             <Route path="/About" element={<About />} />
             <Route path="*" element={<NotFound />} />
