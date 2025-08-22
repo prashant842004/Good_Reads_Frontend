@@ -1,6 +1,6 @@
 import React from 'react';
 import logo from '../Assets/book.png';
-import background from '../Assets/background.jpg';
+import { Link } from 'react-router-dom';
 
 const Home = () => {
     return (
@@ -29,8 +29,10 @@ const Home = () => {
             </div>
                 <div>
 
-                    <button className='btn btn-primary rounded-md  text-2xl'>Register</button>
-                    <button className='btn btn-warning mx-4 rounded-md  text-2xl'>Login</button>
+                    <button className='btn btn-primary rounded-md  text-2xl'>
+                       <Link to='/Signup'>Register
+                       </Link> </button>
+                    <button className='btn btn-warning mx-4 rounded-md  text-2xl text-white'>Login</button>
                 </div>
              
            </div>
